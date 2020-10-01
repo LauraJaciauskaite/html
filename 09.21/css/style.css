@@ -1,0 +1,9 @@
+ul :first-child{
+	background-color: blue;
+}
+ul :last-child{
+	background-color: red;
+}
+ul :nth-child(2n+2){
+	background-color: grey;
+}

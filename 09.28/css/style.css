@@ -1,0 +1,68 @@
+.container{
+	text-align:center;
+}
+*{
+	box-sizing:border-box;
+}
+
+h1,h2,ul{
+	margin:0;
+}
+header{
+	background-color: pink;
+	height:200px;
+	line-height:180px
+}
+nav{
+	background-color: lime;
+	height:50px;
+	line-height:40px;
+}
+nav li{
+	display: inline;
+}
+main{
+	background-color: orange;
+	width:70%;
+	height:500px;
+}
+aside{
+	background-color: yellow;
+	width:30%;
+	height:500px;
+}
+footer{
+	background-color: red;
+	clear:both;
+}
+main, aside{
+	float:left;
+	padding:20px;
+}
+#naujiena1{
+	float:left;
+	float:top;
+	background-color: green;
+	width:50%;
+}
+#naujiena2{
+	float:right;
+	float:top;
+	background-color: pink;
+	width:50%;
+}
+#naujiena3{
+	float:left;
+	float:bottom;
+	background-color: brown;
+	width:50%;
+}
+#naujiena4{
+	float:right;
+	float:bottom;
+	background-color: blue;
+	width:50%;
+}
+h2{
+	line-height: 50px;
+}
